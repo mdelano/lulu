@@ -132,38 +132,6 @@ opacity: 0
 });
 
 
-// twitter ticker
-      jQuery(function($){
-        $("#ticker").tweet({
-          username: "enihilo",
-          page: 1,
-          avatar_size: 0,
-          count: 20,
-          loading_text: "loading"
-        }).bind("loaded", function() {
-          var ul = $(this).find(".tweet_list");
-          var ticker = function() {
-            setTimeout(function() {
-              ul.find('li:first').animate( {marginTop: '-30px'}, 500, function() {
-                $(this).detach().appendTo(ul).removeAttr('style');
-              });
-              ticker();
-            }, 8000);
-          };
-          ticker();
-        });
-      });
-	  
-	  
-// twitter ticker settings
-$(document).ready(function(){
-        $(this).find(".tweet_list").list_ticker({
-                speed: 8000,
-                effect: 'fade' // fade, slide
-        })             
-})
-
-
 // extras
 $(document).ready(initializeExtras);
 

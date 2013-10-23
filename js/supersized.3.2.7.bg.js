@@ -30,13 +30,7 @@ jQuery(function($){
 					thumb_links				:	1,			// Individual thumb links for each slide
 					thumbnail_navigation    :   0,			// Thumbnail navigation
 					slides 					:  	[			// Slideshow Images
-													{image : 'images/background/1.jpg', title : 'Slide Caption 1', thumb : '', url : ''},
-													{image : 'images/background/2.jpg', title : 'Slide Caption 2', thumb : '', url : ''},
-													{image : 'images/background/3.jpg', title : 'Slide Caption 3', thumb : '', url : ''},
-													{image : 'images/background/4.jpg', title : 'Slide Caption 4', thumb : '', url : ''},
-													{image : 'images/background/5.jpg', title : 'Slide Caption 5', thumb : '', url : ''},
-													{image : 'images/background/6.jpg', title : 'Slide Caption 6', thumb : '', url : ''},
-													{image : 'images/background/7.jpg', title : 'Slide Caption 7', thumb : '', url : ''}
+													{image : 'images/background/1.jpg', title : 'Eufora Global Team Educator', thumb : '', url : ''}
 												]
 					
 				});

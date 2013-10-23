@@ -5,7 +5,7 @@ var map;
 function initialize() {
 
 
-var latlng = new google.maps.LatLng(48.858278,2.294254);
+var latlng = new google.maps.LatLng(42.961001,-70.834453);
 var styles = [
     {
       featureType: "all",
@@ -18,7 +18,7 @@ var styles = [
 
 var mapOptions = {
       zoom: 16,
-      center: new google.maps.LatLng(48.858278,2.294254),
+      center: new google.maps.LatLng(42.961001,-70.834453),
       mapTypeId: google.maps.MapTypeId.ROADMAP,
       disableDefaultUI: true,
       draggable: true,
@@ -38,7 +38,7 @@ var icons = new google.maps.Marker({
 
 var image = 'gmaps/map-location.png';
 
-  var LatLng = new google.maps.LatLng(48.858278,2.294254);
+  var LatLng = new google.maps.LatLng(42.961001,-70.834453);
   var Marker = new google.maps.Marker({
       position: LatLng,
       map: map,

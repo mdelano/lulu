@@ -52,6 +52,12 @@ font: inherit;
 vertical-align: baseline;
 }
 
+p {
+	font-size: 15px;
+}
+
+p + p { margin-top: 1em; }
+
 /* 1. body */
 * {
 margin: 0;
@@ -81,6 +87,7 @@ color: #555;
 
 ul {
 list-style: none;
+margin: 0;
 }
 
 h1 {
@@ -92,6 +99,28 @@ text-transform: uppercase;
 text-align: left;
 color: #a81c1b;
 padding: 0 0 10px 0;
+}
+
+h2 {
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-align: left;
+color: #a81c1b;
+padding: 0 0 10px 0;
+}
+
+h3 {
+font-family: 'BebasNeueRegular';
+font-size: 17px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-align: left;
+color: #000;
+padding-top: 5px;
 }
 
 /* 1.1 pattern */
@@ -209,7 +238,7 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: 12px;
 color: #000;
 width: 100%;
-height: 235px;
+height: 50%;
 overflow: hidden;
 background: #fff;
 position: absolute;
@@ -219,9 +248,71 @@ display: none;
 z-index: 998;
 }
 
+.slide-large {
+font-family: 'BebasNeueRegular';
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+text-align: left;
+margin: 0;
+padding: 0;
+color: #000;
+width: 100%;
+height: 73%;
+overflow: hidden;
+background: #fff;
+position: absolute;
+bottom: 95px;
+left: 0;
+display: none;
+z-index: 998;
+}
+
+.slide-large .profile {
+width: 95%;
+margin: 25px auto;
+}
+
+.slide-large .vcard {
+float: left;
+max-width: 15%;
+}
+
+.slide-large .services {
+	width:70%;
+	margin: auto;
+}
+.slide-large .service-group {
+width: 45%;
+float: left;
+margin-left: 50px; 
+}
+
+
+.slide-large .service-category {
+font-size: 30px;
+}
+
+.slide-large ul li .service {
+font-size: 18px;
+line-height:20px;
+color: #000;
+} 
+
+.slide-large .service-group .last{
+margin-top: 40px;
+}
+
+.slide-large ul li .service-price {
+
+font-size: 18px;
+float:right;
+}
+
 .wrapper {
-width: 990px;
-margin: 35px auto;
+width: 100%;
+margin: 35px;
 background: #fff;
 }
 
@@ -242,12 +333,15 @@ background-position: 0 -15px;
 /* 3.1 jCarousel */
 .wrapper-full {
 width: 100%;
-margin: 0 auto;
+
+margin-left:auto;
+margin-right:auto;
 }
 
 .container-full {
-width: 1000px;
+width: 100%;
 margin: 0 auto;
+padding: 20px;
 }
 
 .post-left-top {
@@ -260,7 +354,7 @@ float: left;
 }
 
 .post-left-top {
-width: 30%;
+width: 25%;
 }
 
 .post-left-bottom {
@@ -282,10 +376,80 @@ clear: right;
 padding: 0 0 10px 0;
 }
 
+.profile-wrapper {
+width: 100%;
+margin: 35px;
+background: #fff;
+}
+
+.profile-wrapper-full {
+width: 100%;
+
+margin-left:auto;
+margin-right:auto;
+}
+
+.proile-container-full {
+width: 100%;
+margin: 0 auto;
+padding: 20px;
+}
+
+.team-member-profile {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #555;
+position: relative;
+margin-right: 5%;
+float: left;
+width: 25%;
+}
+
+
+.team-member-profile-section {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+color: #555;
+position: relative;
+margin-right: 5%;
+float: left;
+width: 25%;
+}
+
+.team-member-services {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #555;
+	margin-bottom: 10px;
+	border: solid;
+	display: block;
+}
+
+.team-member-service {
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #555;
+	margin-bottom: 0 0 0 0;
+	display: block;
+}
+
+.team-member-service-name {
+	text-align: left;
+	display: inline;
+}
+
+.team-member-service-price {
+	float: right;
+	display: inline;
+
+}
+
 .jcarousel-skin-one .jcarousel-container {
 margin: 0;
 padding: 0;
-height: 240px;
+height: 100%;
 }
 
 .jcarousel-skin-one .jcarousel-direction-rtl {
@@ -331,7 +495,7 @@ min-height: 240px;
 
 .jcarousel-skin-one .jcarousel-item {
 width: 290px;
-height: 240px;
+height: 100%;
 }
 
 .jcarousel-skin-one .jcarousel-item img {
@@ -358,7 +522,7 @@ color: #555;
 
 .jcarousel-skin-one .jcarousel-next-horizontal {
 position: absolute;
-bottom: 57px;
+
 left: -300px;
 width: 40px;
 height: 40px;
@@ -391,7 +555,7 @@ background-position: -120px 0;
 
 .jcarousel-skin-one .jcarousel-prev-horizontal {
 position: absolute;
-bottom: 57px;
+
 left: -350px;
 width: 40px;
 height: 40px;
@@ -520,7 +684,7 @@ float: left;
 
 .stContainer ul li a {
 font-family: 'BebasNeueRegular';
-font-size: 20px;
+font-size: 50px;
 font-style: normal;
 font-weight: normal;
 text-transform: uppercase;

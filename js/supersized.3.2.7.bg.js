@@ -7,7 +7,7 @@ jQuery(function($){
 					start_slide             :   1,			// Start slide (0 is random)
 					stop_loop				:	0,			// Pauses slideshow on last slide
 					random					: 	0,			// Randomize slide order (Ignores start slide)
-					slide_interval          :   4000,		// Length between transitions
+					slide_interval          :   5000,		// Length between transitions
 					transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
 					transition_speed		:	2000,		// Speed of transition
 					new_window				:	1,			// Image links open in new window/tab
@@ -30,7 +30,21 @@ jQuery(function($){
 					thumb_links				:	1,			// Individual thumb links for each slide
 					thumbnail_navigation    :   0,			// Thumbnail navigation
 					slides 					:  	[			// Slideshow Images
-													{image : 'images/background/1.jpg', title : 'Eufora Global Team Educator', thumb : '', url : ''}
+													
+													{image : 'images/background/group-posed-1.JPG', title : 'you', thumb : '', url : ''},
+													{image : 'images/background/group-candid-1.JPG', title : 'loving what you do', thumb : '', url : ''},
+													//{image : 'images/background/reiki-2.jpg', title : 'beauty as a gift', thumb : '', url : '', foo : ''},
+													{image : 'images/background/education-1.jpg', title : 'education', thumb : '', url : ''},
+													//{image : 'images/background/product-1.JPG', title : 'pure ingredients', thumb : '', url : ''},
+													{image : 'images/background/reiki-1.jpg', title : 'healing energy', thumb : '', url : ''},
+													{image : 'images/background/nails-1.jpg', title : 'pretty hands and feet', thumb : '', url : ''},
+													
+
+													//{image : 'images/background/salon-reception-2.JPG', title : 'Eufora Global Team Educator', thumb : '', url : ''},
+													//{image : 'images/background/salon-reception-3.JPG', title : 'Eufora Global Team Educator', thumb : '', url : ''},
+													//{image : 'images/background/salon-reception-4.JPG', title : 'Eufora Global Team Educator', thumb : '', url : ''},
+													
+													//{image : 'images/background/chairs-1.jpg', title : 'We believe in pretty hands', thumb : '', url : ''}
 												]
 					
 				});

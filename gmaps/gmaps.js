@@ -42,8 +42,14 @@ var image = 'gmaps/map-location.png';
   var Marker = new google.maps.Marker({
       position: LatLng,
       map: map,
-      icon: image
+      icon: image,
+      url: "https://maps.google.com/maps?q=Lulu+Posh+Hair+Salon+North+Hampton+NH+03862"
 	});  
+
+  google.maps.event.addListener(Marker, 'click', function() {
+      window.location.href = this.url;
+  });
+
 }
 
 

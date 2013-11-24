@@ -1,12 +1,18 @@
 // JavaScript Document
 // The One v1.3.1 || ex-nihilo || April - June 2013
 
+function hideSlides() {
+	$(".slide").slideUp();
+	$(".slide-large").slideUp();
+
+}
 
 // content slider
 function showLarge(n){
 	vis_elem = $('#slide-'+n).css('');
 	if(vis_elem=='block') return;
 	else{
+		hideSlides();
 		var rndCls = $(".slide-large").slideUp('slow');
 		$("#slide-"+n).find('.slide-large').slideDown();
 		$('#slide-'+n).slideDown('slow', function(){
@@ -53,11 +59,14 @@ return
 
 
 function show(n){
+	console.log(n);
 	vis_elem = $('#slide-'+n).css('');
 	if(vis_elem=='block') return;
 	else{
+		hideSlides();
 		var rndCls = $(".slide").slideUp('slow');
 		$("#slide-"+n).find('.slide').slideDown();
+		$("#slide-"+n).find('.slide-large').slideDown();
 		$('#slide-'+n).slideDown('slow', function(){
 		var height = $('#slide-'+n).css('height');
 		height = height.split('px');

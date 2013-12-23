@@ -23,6 +23,20 @@ License : MIT License / GPL License
 #slidetitle { position:absolute; left:50px; bottom:420px; font-family:'BebasNeueRegular'; font-size:60px; font-style:normal; font-weight:normal; text
 -transform:uppercase; color:#fef6b2; z-index:0; }
 
+@media screen and (max-width:1920) {
+	#slidecaption { position:absolute; left:325px; bottom:612px; font-family:'BebasNeueRegular'; font-size:150px; font-style:normal; font-weight:normal; text
+	-transform:uppercase; color:#fff; z-index:0; }
+	#slidetitle { position:absolute; left:50px; bottom:620px; font-family:'BebasNeueRegular'; font-size:90px; font-style:normal; font-weight:normal; text
+	-transform:uppercase; color:#fef6b2; z-index:0; }
+}
+
+@media screen and (max-width:1600) {
+	#slidecaption { position:absolute; left:325px; bottom:412px; font-family:'BebasNeueRegular'; font-size:100px; font-style:normal; font-weight:normal; text
+	-transform:uppercase; color:#fff; z-index:0; }
+	#slidetitle { position:absolute; left:50px; bottom:420px; font-family:'BebasNeueRegular'; font-size:60px; font-style:normal; font-weight:normal; text
+	-transform:uppercase; color:#fef6b2; z-index:0; }
+}
+
 @media screen and (max-width:590px) {
 	#slidecaption { left:1px; bottom:1px; margin-left:5%; margin-bottom:10%; font-size:40px;}
 	#slidetitle { left:1px; bottom:1px; margin-left:5%; margin-bottom:19%; font-size:24px;}

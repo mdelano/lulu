@@ -21,7 +21,7 @@ License : MIT License / GPL License
 
 
 @media screen and (max-width:2000px) {
-	#slidecaption { position:absolute; left:425px; bottom:612px; font-family:'BebasNeueRegular'; font-size:150px; font-style:normal; font-weight:normal; text
+	#slidecaption { position:absolute; left:450px; bottom:612px; font-family:'BebasNeueRegular'; font-size:150px; font-style:normal; font-weight:normal; text
 	-transform:uppercase; color:#fff; z-index:0; }
 	#slidetitle { position:absolute; left:50px; bottom:620px; font-family:'BebasNeueRegular'; font-size:90px; font-style:normal; font-weight:normal; text
 	-transform:uppercase; color:#fef6b2; z-index:0; }	

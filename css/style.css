@@ -231,6 +231,10 @@ outline: none;
 #social-links a img.social-link-facebook:hover { width: 70px; background-position: -120px -75px; }
 #social-links a img.social-link-linkedin:hover { width: 75px; background-position: -190px -75px; }
 
+.location {
+	margin-top: 30%;
+}
+
 /* 3. contents */
 .slide {
 font-family: Arial, Helvetica, sans-serif;

@@ -140,17 +140,6 @@ jQuery(document).ready(function() {
 });
 
 
-// news ticker
-    $(function () {
-        $('#js-news').ticker();
-    });
-
-
-// newsletter
-$(document).ready(function(){
-	$("#newsletter").validate();
-});
-
 
 // prettyPhoto
 		$(document).ready(function(){

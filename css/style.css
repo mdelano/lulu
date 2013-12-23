@@ -235,6 +235,10 @@ outline: none;
 	margin-top: 30%;
 }
 
+#d3cp_main {
+	height:50%;
+}
+
 /* 3. contents */
 .slide {
 font-family: Arial, Helvetica, sans-serif;

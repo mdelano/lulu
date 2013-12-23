@@ -18,19 +18,16 @@ License : MIT License / GPL License
 #controls-wrapper { margin:0 auto; height:42px; width:100%; bottom:0; left:0; z-index:4; repeat-x; position:fixed; }
 #controls { overflow:hidden; height:100%; position:relative; text-align:left; z-index:5; }
 #slidecounter { float:left; color:#999; font:11px Arial, Helvetica, sans-serif; text-shadow:#000 0 -1px 0; margin:0 10px 0 15px; line-height:42px; }
-#slidecaption { position:absolute; left:325px; bottom:412px; font-family:'BebasNeueRegular'; font-size:100px; font-style:normal; font-weight:normal; text
--transform:uppercase; color:#fff; z-index:0; }
-#slidetitle { position:absolute; left:50px; bottom:420px; font-family:'BebasNeueRegular'; font-size:60px; font-style:normal; font-weight:normal; text
--transform:uppercase; color:#fef6b2; z-index:0; }
 
-@media only screen and (min-width : 1600) {
+
+@media screen and (min-width:1680px) {
 	#slidecaption { position:absolute; left:325px; bottom:612px; font-family:'BebasNeueRegular'; font-size:150px; font-style:normal; font-weight:normal; text
 	-transform:uppercase; color:#fff; z-index:0; }
 	#slidetitle { position:absolute; left:50px; bottom:620px; font-family:'BebasNeueRegular'; font-size:90px; font-style:normal; font-weight:normal; text
 	-transform:uppercase; color:#fef6b2; z-index:0; }	
 }
 
-@media screen and (max-width:1600) {
+@media screen and (min-width:1024px) {
 	#slidecaption { position:absolute; left:325px; bottom:412px; font-family:'BebasNeueRegular'; font-size:100px; font-style:normal; font-weight:normal; text
 	-transform:uppercase; color:#fff; z-index:0; }
 	#slidetitle { position:absolute; left:50px; bottom:420px; font-family:'BebasNeueRegular'; font-size:60px; font-style:normal; font-weight:normal; text
